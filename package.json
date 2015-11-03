@@ -1,0 +1,30 @@
+{
+  "name": "stabilityproxy",
+  "description": "WebDriver Proxy for stabilizing Angular pages.",
+  "homepage": "https://github.com/angular/",
+  "keywords": [
+    "test",
+    "testing",
+    "webdriver",
+    "webdriverjs",
+    "selenium"
+  ],
+  "author": "Julie Ralph <ju.ralph@gmail.com>",
+  "devDependencies": {
+    "jshint": "2.5.0",
+    "jasmine": "2.3.2",
+    "selenium-webdriver": "2.48.1",
+    "q": "1.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/angular/jasminewd.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "pretest": "node_modules/.bin/jshint index.js lib test",
+    "test": "node_modules/.bin/jasmine JASMINE_CONFIG_PATH=jasmine_config.json"
+  },
+  "license": "MIT",
+  "version": "0.0.1"
+}
